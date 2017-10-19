@@ -11,23 +11,23 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
 </head>
-<body>
+<body class="default-theme">
 
 <!-- HEADER -->
 
-<header class="main-header align-middle">
+<header class="main-header">
     <div class="container">
         <div class="row">
             <div class="col-6">
                 <img src="img/SINGOLO-.png" alt="" class="main-header_logo">
             </div>
             <div class="col-6">
-                <nav class="float-right">
-                    <a href="#" class="main_header__menu">Home</a>
-                    <a href="#" class="main_header__menu">Servises</a>
-                    <a href="#" class="main_header__menu">Portfolio</a>
-                    <a href="#" class="main_header__menu">About</a>
-                    <a href="#" class="main_header__menu">Contact</a>
+                <nav class="main_header__menu">
+                    <a href="#" class="main_header__menu-item">Home</a>
+                    <a href="#" class="main_header__menu-item">Servises</a>
+                    <a href="#" class="main_header__menu-item">Portfolio</a>
+                    <a href="#" class="main_header__menu-item">About</a>
+                    <a href="#" class="main_header__menu-item">Contact</a>
                 </nav>
             </div>
         </div>
@@ -112,7 +112,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Pen.png" alt="" class="menu-services_varialbles-logo">
+                        <img src="img/icons-service/Pen.png" alt="" class="menu-services_variables-logo">
                     </div>
                     <div class="col-9">
                         <h4>Custom Design</h4>
@@ -126,7 +126,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Bulb.png" alt="" class="menu-services_varialbles-logo">
+                        <img src="img/icons-service/Bulb.png" alt="" class="menu-services_variables-logo">
                     </div>
                     <div class="col-9">
                         <h4>Inovative Ideas</h4>
@@ -139,7 +139,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Heart.png" alt="" class="menu-services_varialbles-logo">
+                        <img src="img/icons-service/Heart.png" alt="" class="menu-services_variables-logo">
                     </div>
                     <div class="col-9">
                         <h4>Love Is The Answer</h4>
@@ -160,7 +160,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Phone.png" alt="" class="menu-services_varialbles-logo"></div>
+                        <img src="img/icons-service/Phone.png" alt="" class="menu-services_variables-logo"></div>
                     <div class="col-9">
                         <h4>Responsive Layout</h4>
                         <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent
@@ -173,7 +173,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Bubble.png" alt="" class="menu-services_varialbles-logo"></div>
+                        <img src="img/icons-service/Bubble.png" alt="" class="menu-services_variables-logo"></div>
                     <div class="col-9">
                         <h4>24 / 7 Support</h4>
                         <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque
@@ -186,7 +186,7 @@
             <div class="col-4">
                 <div class="row">
                     <div class="col-3">
-                        <img src="img/icons-service/Star.png" alt="" class="menu-services_varialbles-logo">
+                        <img src="img/icons-service/Star.png" alt="" class="menu-services_variables-logo">
                     </div>
                     <div class="col-9">
                         <h4>Feel Like A Star</h4>
@@ -310,34 +310,36 @@
 <section class="footer">
 
     <div class="container">
-       <div class="row">
-       <div class="col-12">
-           <h1 class="footer-header">Get a Quote</h1>
-    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi
-        erat porttitor ligula, eget lacinia odio sem nec elit.
-        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-</div>
-    <div class="col-8">
-        <input type="text" value="Name(Required)">
-        <input type="email" value="Email(Required)">
-        <input type="text" value="Subject">
-        <input type="text" value="Describe your project in detail...">
-        <button type="SUBMIT" value="Send">Send</button>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="footer-header">Get a Quote</h1>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus,
+                    nisi
+                    erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div>
+            <div class="col-8">
+                <input type="text" value="Name(Required)">
+                <input type="email" value="Email(Required)">
+                <input type="text" value="Subject">
+                <input type="text" value="Describe your project in detail...">
+                <button type="SUBMIT" value="Send">Send</button>
 
 
-    </div>
+            </div>
 
-    <div class="col-4">
-        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit
-            amet volutpat libero. Nulla sed nunc et tortor luctus faucibus.
-            Morbi at aliquet turpis, et consequat felis.</p>
+            <div class="col-4">
+                <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin
+                    sit
+                    amet volutpat libero. Nulla sed nunc et tortor luctus faucibus.
+                    Morbi at aliquet turpis, et consequat felis.</p>
 
-        <a href="#"> Elm St. 14/05 Lost City</a>
-        <a href="tel:+103528 331 86 35">103528 331 86 35</a>
-        <a href="#">info@singolo.com</a>
+                <a href="#"> Elm St. 14/05 Lost City</a>
+                <a href="tel:+103528 331 86 35">103528 331 86 35</a>
+                <a href="#">info@singolo.com</a>
 
-    </div>
-       </div>
+            </div>
+        </div>
     </div>
 
 </section>
@@ -347,20 +349,20 @@
 <!--  FOOTER -->
 
 <aside class="info-footer">
-   <div class="container">
+    <div class="container">
 
-     <div class="row">
-         <div class="col-10">© Copyright 2013 · by PSDchat.com</div>
-    <div class="col-2">
-       <div class="float-left">
-           <a href=""><img src="img/icons/Facebook1.png" alt=""></a>
-        <a href=""><img src="img/icons/Google.png" alt=""></a>
-        <a href=""><img src="img/icons/LinkedIn.png" alt=""></a>
-        <a href=""><img src="img/icons/Twitter.png" alt=""></a></div>
+        <div class="row">
+            <div class="col-10">© Copyright 2013 · by PSDchat.com</div>
+            <div class="col-2">
+                <div class="float-left">
+                    <a href=""><img src="img/icons/Facebook1.png" alt=""></a>
+                    <a href=""><img src="img/icons/Google.png" alt=""></a>
+                    <a href=""><img src="img/icons/LinkedIn.png" alt=""></a>
+                    <a href=""><img src="img/icons/Twitter.png" alt=""></a></div>
 
+            </div>
+        </div>
     </div>
-     </div>
-   </div>
 
     <!--  /FOOTER -->
 </aside>

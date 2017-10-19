@@ -1,0 +1,28 @@
+{
+  "name": "singolo",
+  "version": "1.0.0",
+  "description": "test page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksanasokolenko/singolo.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Oksana Sokolenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oksanasokolenko/singolo/issues"
+  },
+  "homepage": "https://github.com/oksanasokolenko/singolo#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}
